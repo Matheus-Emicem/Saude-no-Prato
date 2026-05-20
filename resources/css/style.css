@@ -181,3 +181,23 @@ h3 {text-transform: uppercase;
 .gallery>ul>li img:hover,
 .gallery>ul>li img:active{transform: scale(1.05);
                           filter: brightness(110%);}
+
+/***************************/
+/******** GALERIA 2 ********/
+/***************************/
+
+.galery-2>figure{width: 70%;
+                 height: 450px;
+                 margin: 0 auto;
+                 display: flex;
+                 justify-content: center;
+                 gap: 10px;}
+
+.galery-2>figure>img{width: 10%;
+                     height: 100%;
+                     object-fit: cover;
+                     border: 2px solid #E67E22;
+                     border-radius: 10px;
+                     transition: width ease-in-out 0.3s;}
+
+.galery-2>figure>img:hover{width: 55%;}
