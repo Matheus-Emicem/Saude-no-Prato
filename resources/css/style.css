@@ -66,6 +66,9 @@ h1{
     border-color: #CF6D17;
 }
 
+.slogan{margin-top: 100px;
+        margin-left: 10%;}
+
 /*****************************/
 /****** MENU NAVEGAÇÃO *******/
 /*****************************/
@@ -201,3 +204,42 @@ h3 {text-transform: uppercase;
                      transition: width ease-in-out 0.3s;}
 
 .galery-2>figure>img:hover{width: 55%;}
+
+/************************/
+/******** RODAPÉ ********/
+/************************/
+
+footer{background-color: #333;
+       font-size: 90%;
+       color: #FFF;
+       padding: 40px 30px;}
+
+.footer-top{display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;}
+
+.footer-nav ul,
+.social-nav ul{list-style-type: none;
+               display: flex;
+               gap: 20px;}
+
+footer a:link,
+footer a:visited{color: #888;
+                 text-decoration: none;}
+
+ion-icon{font-size: 130%;
+         transition: color ease-in-out .3s;}
+
+.logo-twitter:hover{color: #00aced;}
+
+.logo-instagram:hover{color: #c653d7;}
+
+.logo-facebook:hover{color: #3b5998;}
+
+.logo-youtube:hover{color: #ff0000;}
+
+footer p{color: #888;
+         text-align: center;
+         margin-top: 20px;
+         letter-spacing: 1px;
+         word-spacing: 2px;}
